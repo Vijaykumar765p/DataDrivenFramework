@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Driven Basics Suite" duration-ms="16586" started-at="2019-10-18T05:48:42Z" finished-at="2019-10-18T05:48:59Z">
+    <groups>
+    </groups>
+    <test name="Bank Manager Login Test" duration-ms="4090" started-at="2019-10-18T05:48:42Z" finished-at="2019-10-18T05:48:46Z">
+      <class name="com.w2sa.testcases.BankMngrLoginTest">
+        <test-method status="PASS" signature="loginAsBankMgr()[pri:0, instance:com.w2sa.testcases.BankMngrLoginTest@4fb61f4a]" name="loginAsBankMgr" duration-ms="4079" started-at="2019-10-18T11:18:42Z" finished-at="2019-10-18T11:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankMgr -->
+      </class> <!-- com.w2sa.testcases.BankMngrLoginTest -->
+    </test> <!-- Bank Manager Login Test -->
+    <test name="Add Customer Test" duration-ms="12480" started-at="2019-10-18T05:48:46Z" finished-at="2019-10-18T05:48:59Z">
+      <class name="com.w2sa.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.w2sa.testcases.AddCustomerTest@79e2c065]" name="SetUp" is-config="true" duration-ms="14421" started-at="2019-10-18T11:18:28Z" finished-at="2019-10-18T11:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2sa.testcases.AddCustomerTest@79e2c065]" name="addCustomer" duration-ms="12469" started-at="2019-10-18T11:18:47Z" data-provider="getData" finished-at="2019-10-18T11:18:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arora]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A234wd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.w2sa.testcases.AddCustomerTest@79e2c065]" name="TearDown" is-config="true" duration-ms="611" started-at="2019-10-18T11:18:59Z" finished-at="2019-10-18T11:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.w2sa.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+  </suite> <!-- Data Driven Basics Suite -->
+</testng-results>
